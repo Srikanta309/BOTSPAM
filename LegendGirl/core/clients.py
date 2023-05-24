@@ -14,7 +14,7 @@ group_username = "@LegendSpamBot"
 logging.basicConfig(format="%(levelname)s  %(message)s", level=logging.INFO)
 
 
-if "6032040315:AAFyBtAEBGf3RDgl-DjSiQUejFexmeDDnDI") in BOT_TOKEN:
+if ":" in BOT_TOKEN:
     Client1 = call(
         "LegendSpam",
         api_id=APP_ID,
