@@ -2,16 +2,16 @@ from os import getenv
 
 from decouple import config
 
-APP_ID = getenv("APP_ID", "16942102")
+APP_ID = getenv("APP_ID", "25357017")
 
 API_HASH = getenv("API_HASH", "eb72f958fd9dbad872a9ff1836ad96e6")
 
 HEROKU_APP_NAME = config("HEROKU_APP_NAME", None)
-HEROKU_API_KEY = config("HEROKU_API_KEY", None)
+HEROKU_API_KEY = config("HEROKU_API_KEY", ")
 
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-BOT_TOKEN2 = config("BOT_TOKEN2", default=None)
-BOT_TOKEN3 = config("BOT_TOKEN3", default=None)
+BOT_TOKEN = config("BOT_TOKEN", "6292359535:AAEDI7EtNfVbG4VQv0cM3GTX-9WwydeuzsM")
+BOT_TOKEN2 = config("BOT_TOKEN2", "6268640520:AAF8YfhXa1hMgQbe9FvwtBoxmyCrrfj1S90")
+BOT_TOKEN3 = config("BOT_TOKEN3", "5959897792:AAEVaEAHUHj-7aXnf9xM2WDEXq22ciQgX2Y")
 BOT_TOKEN4 = config("BOT_TOKEN4", default=None)
 BOT_TOKEN5 = config("BOT_TOKEN5", default=None)
 BOT_TOKEN6 = config("BOT_TOKEN6", default=None)
@@ -35,19 +35,19 @@ BOT_TOKEN23 = config("BOT_TOKEN23", default=None)
 BOT_TOKEN24 = config("BOT_TOKEN24", default=None)
 BOT_TOKEN25 = config("BOT_TOKEN25", default=None)
 try:
-    SUDO_USERS = str(getenv("SUDO_USERS", "123 456")).split(" ")
+    SUDO_USERS = str(getenv("SUDO_USERS", "6020570673")).split(" ")
 except Exception:
     SUDO_USERS = str(getenv("SUDO_USERS", "123 456"))
 
-START_MESSAGE = getenv("START_MESSAGE", None)
+START_MESSAGE = getenv("START_MESSAGE", "that legend fighter off govind")
 
 PING_PIC = getenv("PING_PIC", None)
 
-START_PIC = getenv("START_PIC", None)
+START_PIC = getenv("START_PIC", "https://te.legra.ph/file/6aad866982e67533b7111.jpg")
 
 
 HELP_MSG = getenv("HELP_MSG", None)
 HELP_PIC = getenv("HELP_PIC", "https://graph.org/file/89ed7d3a2bd8aa2c61385.jpg")
-LOG_CHANNEL = getenv("LOG_CHANNEL", None)
+LOG_CHANNEL = getenv("LOG_CHANNEL", "-1001985545860")
 
 HANDLER = getenv("HANDLER", "/")
