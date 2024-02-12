@@ -21,6 +21,15 @@
             "description": "Use @BotFather. To Get BOT_TOKEN",
             "value": ""
         },
+        "APP_ID": {
+            "description": "Use @BotFather. To Get BOT_TOKEN",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Use @BotFather. To Get BOT_TOKEN",
+            "value": ""
+        },
+
         "BOT_TOKEN2": {
             "description": "Use @BotFather. To Get BOT_TOKEN.",
             "value": "",
